@@ -1,0 +1,13 @@
+Examples/ROS/ORB_SLAM2/Mono
+Examples/ROS/ORB_SLAM2/MonoAR
+Thirdparty/DBoW2/build/
+Thirdparty/DBoW2/lib/
+Thirdparty/g2o/build/
+Thirdparty/g2o/config.h
+Thirdparty/g2o/lib/
+Vocabulary/ORBvoc.txt
+lib/
+Examples/ROS/ORB_SLAM2/cmake-build-debug
+bin/
+build/
+cmake-build-debug/

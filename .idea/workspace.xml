@@ -1,0 +1,1347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="ORB_SLAM2_realsense" targetName="ROSBUILD_genmsg_lisp" />
+      <config projectName="ORB_SLAM2_realsense" targetName="run_tests" />
+      <config projectName="ORB_SLAM2_realsense" targetName="_catkin_empty_exported_target" />
+      <config projectName="ORB_SLAM2_realsense" targetName="RGBD" />
+      <config projectName="ORB_SLAM2_realsense" targetName="rosbuild_precompile" />
+      <config projectName="ORB_SLAM2_realsense" targetName="rospack_gensrv" />
+      <config projectName="ORB_SLAM2_realsense" targetName="rosbuild_premsgsrvgen" />
+      <config projectName="ORB_SLAM2_realsense" targetName="clean_test_results" />
+      <config projectName="ORB_SLAM2_realsense" targetName="doxygen" />
+      <config projectName="ORB_SLAM2_realsense" targetName="rosbuild_clean-test-results" />
+      <config projectName="ORB_SLAM2_realsense" targetName="rospack_genmsg_libexe" />
+      <config projectName="ORB_SLAM2_realsense" targetName="rospack_genmsg" />
+      <config projectName="ORB_SLAM2_realsense" targetName="test" />
+      <config projectName="ORB_SLAM2_realsense" targetName="bin_vocabulary" />
+      <config projectName="ORB_SLAM2_realsense" targetName="ROSBUILD_gensrv_lisp" />
+      <config projectName="ORB_SLAM2_realsense" targetName="test-future" />
+      <config projectName="ORB_SLAM2_realsense" targetName="ROSBUILD_genmsg_cpp" />
+      <config projectName="ORB_SLAM2_realsense" targetName="ORB_SLAM2_realsense" />
+      <config projectName="ORB_SLAM2_realsense" targetName="download_extra_data" />
+      <config projectName="ORB_SLAM2_realsense" targetName="test-results" />
+      <config projectName="ORB_SLAM2_realsense" targetName="test-results-run" />
+      <config projectName="ORB_SLAM2_realsense" targetName="tests" />
+      <config projectName="ORB_SLAM2_realsense" targetName="ROSBUILD_gensrv_cpp" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c0d96e3f-d410-4738-aed1-654b799926ef" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Dependencies.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/Monocular/EuRoC.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/Monocular/EuRoC_TimeStamps/MH01.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/Monocular/EuRoC_TimeStamps/MH02.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/Monocular/EuRoC_TimeStamps/MH03.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/Monocular/EuRoC_TimeStamps/MH04.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/Monocular/EuRoC_TimeStamps/MH05.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/Monocular/EuRoC_TimeStamps/V101.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/Monocular/EuRoC_TimeStamps/V102.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/Monocular/EuRoC_TimeStamps/V103.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/Monocular/EuRoC_TimeStamps/V201.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/Monocular/EuRoC_TimeStamps/V202.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/Monocular/EuRoC_TimeStamps/V203.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/Monocular/KITTI00-02.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/Monocular/KITTI03.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/Monocular/KITTI04-12.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/Monocular/TUM1.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/Monocular/TUM2.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/Monocular/TUM3.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/Monocular/mono_euroc.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/Monocular/mono_kitti.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/Monocular/mono_tum.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/RGB-D/TUM1.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/RGB-D/TUM2.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/RGB-D/TUM3.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/RGB-D/add_pointclouds_to_bagfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/RGB-D/associate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/RGB-D/associations/fr1_desk.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/RGB-D/associations/fr1_desk2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/RGB-D/associations/fr1_floor.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/RGB-D/associations/fr1_room.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/RGB-D/associations/fr1_xyz.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/RGB-D/associations/fr2_desk.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/RGB-D/associations/fr2_loop.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/RGB-D/associations/fr2_xyz.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/RGB-D/associations/fr3_nstr_tex_near.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/RGB-D/associations/fr3_office.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/RGB-D/associations/fr3_office_val.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/RGB-D/associations/fr3_str_tex_far.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/RGB-D/associations/fr3_str_tex_near.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/RGB-D/rgbd_my.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/RGB-D/rgbd_tum.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/RGB-D/tags" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/.ycm_extra_conf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/Asus.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/KeyFrameTrajectory.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/Mono" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/MonoAR" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/RGBD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/Stereo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CATKIN_IGNORE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/3.5.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/3.5.1/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/3.5.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/3.5.1/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeError.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/Mono.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/Mono.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/Mono.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/Mono.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/Mono.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/Mono.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/Mono.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/Mono.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/Mono.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/Mono.dir/src/ros_mono.cc.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/MonoAR.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/MonoAR.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/MonoAR.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/MonoAR.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/MonoAR.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/MonoAR.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/MonoAR.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/MonoAR.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/MonoAR.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/MonoAR.dir/src/AR/ViewerAR.cc.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/MonoAR.dir/src/AR/ros_mono_ar.cc.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/RGBD.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/RGBD.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/RGBD.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/RGBD.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/RGBD.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/RGBD.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/RGBD.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/RGBD.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/RGBD.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/RGBD.dir/src/ros_rgbd.cc.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/ROSBUILD_genmsg_cpp.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/ROSBUILD_genmsg_cpp.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/ROSBUILD_genmsg_cpp.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/ROSBUILD_genmsg_cpp.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/ROSBUILD_genmsg_lisp.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/ROSBUILD_genmsg_lisp.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/ROSBUILD_genmsg_lisp.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/ROSBUILD_genmsg_lisp.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/ROSBUILD_gensrv_cpp.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/ROSBUILD_gensrv_cpp.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/ROSBUILD_gensrv_cpp.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/ROSBUILD_gensrv_cpp.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/ROSBUILD_gensrv_lisp.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/ROSBUILD_gensrv_lisp.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/ROSBUILD_gensrv_lisp.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/ROSBUILD_gensrv_lisp.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/Stereo.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/Stereo.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/Stereo.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/Stereo.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/Stereo.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/Stereo.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/Stereo.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/Stereo.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/Stereo.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/Stereo.dir/src/ros_stereo.cc.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/_catkin_empty_exported_target.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/_catkin_empty_exported_target.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/clean_test_results.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/clean_test_results.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/clean_test_results.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/download_extra_data.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/download_extra_data.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/download_extra_data.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/download_extra_data.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/doxygen.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/doxygen.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/doxygen.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/doxygen.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/rosbuild_clean-test-results.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/rosbuild_clean-test-results.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/rosbuild_clean-test-results.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/rosbuild_clean-test-results.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/rosbuild_precompile.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/rosbuild_precompile.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/rosbuild_precompile.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/rosbuild_precompile.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/rosbuild_precompile.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/rosbuild_precompile.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/rosbuild_premsgsrvgen.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/rosbuild_premsgsrvgen.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/rosbuild_premsgsrvgen.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/rosbuild_premsgsrvgen.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/rospack_genmsg.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/rospack_genmsg.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/rospack_genmsg.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/rospack_genmsg.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/rospack_genmsg_libexe.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/rospack_genmsg_libexe.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/rospack_genmsg_libexe.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/rospack_genmsg_libexe.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/rospack_genmsg_libexe.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/rospack_genmsg_libexe.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/rospack_gensrv.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/rospack_gensrv.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/rospack_gensrv.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/rospack_gensrv.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/run_tests.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/run_tests.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/run_tests.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/run_tests.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/test-future.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/test-future.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/test-future.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/test-future.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/test-results-run.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/test-results-run.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/test-results-run.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/test-results-run.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/test-results.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/test-results.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/test-results.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/test-results.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/test.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/test.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/test.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/test.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/tests.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/tests.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/tests.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/CMakeFiles/tests.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/catkin/catkin_generated/version/package.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/catkin_generated/env_cached.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/catkin_generated/generate_cached_setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/catkin_generated/installspace/.rosinstall" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/catkin_generated/installspace/_setup_util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/catkin_generated/installspace/env.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/catkin_generated/installspace/setup.bash" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/catkin_generated/installspace/setup.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/catkin_generated/installspace/setup.zsh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/catkin_generated/ordered_paths.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/catkin_generated/setup_cached.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/catkin_generated/stamps/ORB_SLAM2/_setup_util.py.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/catkin_generated/stamps/ORB_SLAM2/interrogate_setup_dot_py.py.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/catkin_generated/stamps/ORB_SLAM2/package.xml.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/compile_commands.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/devel/.catkin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/devel/.rosinstall" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/devel/_setup_util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/devel/env.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/devel/setup.bash" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/devel/setup.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/devel/setup.zsh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/gtest/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/gtest/CMakeFiles/gtest.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/gtest/CMakeFiles/gtest.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/gtest/CMakeFiles/gtest.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/gtest/CMakeFiles/gtest.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/gtest/CMakeFiles/gtest.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/gtest/CMakeFiles/gtest.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/gtest/CMakeFiles/gtest.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/gtest/CMakeFiles/gtest_main.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/gtest/CMakeFiles/gtest_main.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/gtest/CMakeFiles/gtest_main.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/gtest/CMakeFiles/gtest_main.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/gtest/CMakeFiles/gtest_main.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/gtest/CMakeFiles/gtest_main.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/gtest/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/gtest/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/build/gtest/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/manifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/src/AR/ViewerAR.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/src/AR/ViewerAR.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/src/AR/ros_mono_ar.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/src/ros_mono.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/src/ros_rgbd.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/ROS/ORB_SLAM2/src/ros_stereo.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/Stereo/EuRoC.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/Stereo/EuRoC_TimeStamps/MH01.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/Stereo/EuRoC_TimeStamps/MH02.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/Stereo/EuRoC_TimeStamps/MH03.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/Stereo/EuRoC_TimeStamps/MH04.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/Stereo/EuRoC_TimeStamps/MH05.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/Stereo/EuRoC_TimeStamps/V101.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/Stereo/EuRoC_TimeStamps/V102.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/Stereo/EuRoC_TimeStamps/V103.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/Stereo/EuRoC_TimeStamps/V201.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/Stereo/EuRoC_TimeStamps/V202.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/Stereo/EuRoC_TimeStamps/V203.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/Stereo/KITTI00-02.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/Stereo/KITTI03.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/Stereo/KITTI04-12.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/Stereo/stereo_euroc.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Examples/Stereo/stereo_kitti.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/License-gpl.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/DBoW2/BowVector.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/DBoW2/BowVector.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/DBoW2/FClass.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/DBoW2/FORB.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/DBoW2/FORB.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/DBoW2/FeatureVector.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/DBoW2/ScoringObject.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/DBoW2/TemplatedVocabulary.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/DUtils/Random.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/DUtils/Random.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/DUtils/Timestamp.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/DUtils/Timestamp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/build/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/build/CMakeFiles/3.5.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/build/CMakeFiles/3.5.1/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/build/CMakeFiles/3.5.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/build/CMakeFiles/3.5.1/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/build/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/build/CMakeFiles/DBoW2.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/build/CMakeFiles/DBoW2.dir/DBoW2/BowVector.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/build/CMakeFiles/DBoW2.dir/DBoW2/FORB.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/build/CMakeFiles/DBoW2.dir/DBoW2/FeatureVector.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/build/CMakeFiles/DBoW2.dir/DBoW2/ScoringObject.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/build/CMakeFiles/DBoW2.dir/DUtils/Random.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/build/CMakeFiles/DBoW2.dir/DUtils/Timestamp.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/build/CMakeFiles/DBoW2.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/build/CMakeFiles/DBoW2.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/build/CMakeFiles/DBoW2.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/build/CMakeFiles/DBoW2.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/build/CMakeFiles/DBoW2.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/build/CMakeFiles/DBoW2.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/build/CMakeFiles/DBoW2.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/build/CMakeFiles/DBoW2.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/build/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/build/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/build/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/build/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/build/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/build/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/build/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/build/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/build/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/DBoW2/lib/libDBoW2.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/3.5.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/3.5.1/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/3.5.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/3.5.1/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/g2o.dir/C.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/g2o.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/g2o.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/g2o.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/g2o.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/g2o.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/g2o.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/g2o.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/core/batch_stats.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/core/cache.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/core/estimate_propagator.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/core/factory.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/core/hyper_dijkstra.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/core/hyper_graph.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/core/hyper_graph_action.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/core/jacobian_workspace.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/core/marginal_covariance_cholesky.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/core/matrix_structure.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/core/optimizable_graph.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/core/optimization_algorithm.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_factory.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_levenberg.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/core/optimization_algorithm_with_hessian.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/core/parameter.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/core/parameter_container.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/core/robust_kernel.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/core/robust_kernel_factory.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/core/robust_kernel_impl.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/core/solver.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/core/sparse_optimizer.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/stuff/os_specific.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/stuff/property.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/stuff/string_tools.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/stuff/timeutil.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/types/types_sba.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/types/types_seven_dof_expmap.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/g2o.dir/g2o/types/types_six_dof_expmap.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/g2o.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/g2o.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/build/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/cmake_modules/FindBLAS.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/cmake_modules/FindEigen3.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/cmake_modules/FindLAPACK.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/config.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/config.h.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/base_binary_edge.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/base_binary_edge.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/base_edge.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/base_multi_edge.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/base_multi_edge.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/base_unary_edge.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/base_unary_edge.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/base_vertex.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/base_vertex.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/batch_stats.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/batch_stats.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/block_solver.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/block_solver.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/cache.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/cache.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/creators.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/eigen_types.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/estimate_propagator.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/estimate_propagator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/factory.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/factory.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/hyper_dijkstra.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/hyper_dijkstra.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/hyper_graph.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/hyper_graph.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/hyper_graph_action.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/hyper_graph_action.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/jacobian_workspace.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/jacobian_workspace.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/linear_solver.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/matrix_operations.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/matrix_structure.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/matrix_structure.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/openmp_mutex.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/optimizable_graph.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/optimizable_graph.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/optimization_algorithm.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/optimization_algorithm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/optimization_algorithm_dogleg.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/optimization_algorithm_dogleg.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/optimization_algorithm_factory.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/optimization_algorithm_factory.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/optimization_algorithm_gauss_newton.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/optimization_algorithm_gauss_newton.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/optimization_algorithm_property.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/parameter.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/parameter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/parameter_container.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/parameter_container.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/robust_kernel.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/robust_kernel.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/robust_kernel_factory.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/robust_kernel_factory.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/robust_kernel_impl.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/robust_kernel_impl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/solver.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/solver.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/sparse_block_matrix.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/sparse_block_matrix_ccs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/sparse_block_matrix_diagonal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/sparse_block_matrix_test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/sparse_optimizer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/core/sparse_optimizer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/solvers/linear_solver_dense.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/solvers/linear_solver_eigen.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/stuff/color_macros.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/stuff/macros.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/stuff/misc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/stuff/os_specific.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/stuff/os_specific.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/stuff/property.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/stuff/property.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/stuff/string_tools.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/stuff/string_tools.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/stuff/timeutil.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/stuff/timeutil.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/types/se3_ops.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/types/se3_ops.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/types/se3quat.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/types/sim3.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/types/types_sba.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/types/types_sba.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/types/types_six_dof_expmap.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/lib/libg2o.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/Thirdparty/g2o/license-bsd.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/build.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/build_ros.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/3.6.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/3.6.3/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/3.6.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/3.6.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/3.6.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/3.6.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/3.6.3/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/3.6.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/3.6.3/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/ORB_SLAM2.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/ORB_SLAM2.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/ORB_SLAM2.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/ORB_SLAM2.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/ORB_SLAM2.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/ORB_SLAM2.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/ORB_SLAM2.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/mono_euroc.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/mono_euroc.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/mono_euroc.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/mono_euroc.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/mono_euroc.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/mono_euroc.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/mono_euroc.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/mono_kitti.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/mono_kitti.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/mono_kitti.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/mono_kitti.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/mono_kitti.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/mono_kitti.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/mono_kitti.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/mono_tum.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/mono_tum.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/mono_tum.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/mono_tum.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/mono_tum.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/mono_tum.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/mono_tum.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/rgbd_tum.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/rgbd_tum.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/rgbd_tum.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/rgbd_tum.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/rgbd_tum.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/rgbd_tum.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/rgbd_tum.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/stereo_euroc.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/stereo_euroc.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/stereo_euroc.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/stereo_euroc.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/stereo_euroc.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/stereo_euroc.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/stereo_euroc.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/stereo_kitti.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/stereo_kitti.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/stereo_kitti.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/stereo_kitti.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/stereo_kitti.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/stereo_kitti.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/CMakeFiles/stereo_kitti.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/ORB_SLAM2.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake-build-debug/compile_commands.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/cmake_modules/FindEigen3.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/include/Converter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/include/Frame.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/include/FrameDrawer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/include/Initializer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/include/KeyFrame.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/include/KeyFrameDatabase.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/include/LocalMapping.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/include/LoopClosing.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/include/Map.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/include/MapDrawer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/include/MapPoint.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/include/ORBVocabulary.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/include/ORBextractor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/include/ORBmatcher.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/include/Optimizer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/include/PnPsolver.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/include/Sim3Solver.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/include/System.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/include/Tracking.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/include/Viewer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/include/pointcloudmapping.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/script/rgbd_pcl.bash" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/src/'" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/src/Converter.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/src/Frame.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/src/FrameDrawer.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/src/Initializer.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/src/KeyFrame.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/src/KeyFrameDatabase.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/src/LocalMapping.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/src/LoopClosing.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/src/Map.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/src/MapDrawer.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/src/MapPoint.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/src/ORBextractor.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/src/ORBmatcher.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/src/Optimizer.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/src/PnPsolver.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/src/Sim3Solver.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/src/System.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/src/Tracking.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/src/Viewer.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/src/pointcloudmapping.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/tools/bin_vocabulary" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ORB_SLAM2_modified/tools/bin_vocabulary.cc" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="-2047605384">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cc" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="ObjectiveC" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-2091815475">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cc" value="10" />
+          <entry key="h" value="3" />
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CMakeLists.txt" value="1" />
+          <entry key="ObjectiveC" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cc" value="96" />
+          <entry key="h" value="51" />
+          <entry key="txt" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CMakeLists.txt" value="10" />
+          <entry key="ObjectiveC" value="147" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1903008061">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="RGBD (disassembly)" value="4" />
+          <entry key="cc" value="15" />
+          <entry key="h" value="18" />
+          <entry key="hpp" value="7" />
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CMakeLists.txt" value="1" />
+          <entry key="Disassembly" value="4" />
+          <entry key="ObjectiveC" value="40" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cc" value="690" />
+          <entry key="h" value="93" />
+          <entry key="txt" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CMakeLists.txt" value="2" />
+          <entry key="ObjectiveC" value="783" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ros_rgbd.cc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2205">
+              <caret line="147" column="17" selection-start-line="147" selection-start-column="17" selection-end-line="147" selection-end-column="17" />
+              <folding>
+                <element signature="e#829#847#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/System.cc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2760">
+              <caret line="184" column="62" selection-start-line="184" selection-start-column="62" selection-end-line="184" selection-end-column="62" />
+              <folding>
+                <element signature="e#830#849#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/MapDrawer.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="56" column="12" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MapDrawer.cc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3405">
+              <caret line="227" column="16" selection-start-line="227" selection-start-column="16" selection-end-line="227" selection-end-column="16" />
+              <folding>
+                <element signature="e#828#850#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pointcloudmapping.cc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="118" column="32" selection-start-line="118" selection-start-column="32" selection-end-line="118" selection-end-column="32" />
+              <folding>
+                <element signature="e#785#815#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/KeyFrame.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1560">
+              <caret line="104" column="22" selection-start-line="104" selection-start-column="22" selection-end-line="104" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/pointcloudmapping.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="750">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>pointcloud_viewer</find>
+      <find>Pointcloud viewer</find>
+      <find>viewer</find>
+      <find>viewerThread</find>
+      <find>mpMap</find>
+      <find>generateMap</find>
+      <find>keyframeMutex</find>
+      <find>mpPointCloudMapping</find>
+      <find>shutdown</find>
+      <find>globalmap</find>
+      <find>ORB_SLAM2</find>
+      <find>mod</find>
+      <find>insertKeyFrame</find>
+      <find>globalMap</find>
+      <find>mCameraPose</find>
+      <find>SetCurrentCameraPose</find>
+      <find>pubOdometry</find>
+      <find>s_cam</find>
+      <find>//    Rwc = Tcw.rowRange(0,3).colRange(0,3).t();</find>
+      <find>Rwc = Tcw.rowRange(0,3).colRange(0,3).t();</find>
+      <find>mTcw</find>
+      <find>Twc</find>
+      <find>localMap</find>
+      <find>receive a keyframe</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/cmake-build-debug</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/include/System.h" />
+        <option value="$PROJECT_DIR$/include/Tracking.h" />
+        <option value="$PROJECT_DIR$/src/System.cc" />
+        <option value="$PROJECT_DIR$/src/Tracking.cc" />
+        <option value="$PROJECT_DIR$/src/Viewer.cc" />
+        <option value="$PROJECT_DIR$/src/ros_rgbd.cc" />
+        <option value="$PROJECT_DIR$/include/Viewer.h" />
+        <option value="$PROJECT_DIR$/include/pointcloudmapping.h" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/pointcloudmapping.cc" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="65" />
+    <option name="y" value="-6" />
+    <option name="width" value="1855" />
+    <option name="height" value="1086" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ORB_SLAM2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ORB_SLAM2_realsense" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ORB_SLAM2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ORB_SLAM2_realsense" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/catkin_ws/src/A-LOAM/CMakeLists.txt" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.RGBD">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ORB_SLAM2_realsense" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ORB_SLAM2_realsense" TARGET_NAME="ORB_SLAM2_realsense" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RGBD" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="$PROJECT_DIR$/Vocabulary/ORBvoc.bin $PROJECT_DIR$/Examples/RGB-D/TUM1.yaml " PASS_PARENT_ENVS_2="true" PROJECT_NAME="ORB_SLAM2_realsense" TARGET_NAME="RGBD" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ORB_SLAM2_realsense" RUN_TARGET_NAME="RGBD">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ROSBUILD_genmsg_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ORB_SLAM2_realsense" TARGET_NAME="ROSBUILD_genmsg_cpp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ROSBUILD_genmsg_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ORB_SLAM2_realsense" TARGET_NAME="ROSBUILD_genmsg_lisp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ROSBUILD_gensrv_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ORB_SLAM2_realsense" TARGET_NAME="ROSBUILD_gensrv_cpp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ROSBUILD_gensrv_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ORB_SLAM2_realsense" TARGET_NAME="ROSBUILD_gensrv_lisp" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_catkin_empty_exported_target" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ORB_SLAM2_realsense" TARGET_NAME="_catkin_empty_exported_target" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bin_vocabulary" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ORB_SLAM2_realsense" TARGET_NAME="bin_vocabulary" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ORB_SLAM2_realsense" RUN_TARGET_NAME="bin_vocabulary">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clean_test_results" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ORB_SLAM2_realsense" TARGET_NAME="clean_test_results" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="download_extra_data" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ORB_SLAM2_realsense" TARGET_NAME="download_extra_data" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="doxygen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ORB_SLAM2_realsense" TARGET_NAME="doxygen" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosbuild_clean-test-results" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ORB_SLAM2_realsense" TARGET_NAME="rosbuild_clean-test-results" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosbuild_precompile" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ORB_SLAM2_realsense" TARGET_NAME="rosbuild_precompile" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rosbuild_premsgsrvgen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ORB_SLAM2_realsense" TARGET_NAME="rosbuild_premsgsrvgen" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rospack_genmsg" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ORB_SLAM2_realsense" TARGET_NAME="rospack_genmsg" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rospack_genmsg_libexe" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ORB_SLAM2_realsense" TARGET_NAME="rospack_genmsg_libexe" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rospack_gensrv" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ORB_SLAM2_realsense" TARGET_NAME="rospack_gensrv" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="run_tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ORB_SLAM2_realsense" TARGET_NAME="run_tests" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-future" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ORB_SLAM2_realsense" TARGET_NAME="test-future" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-results-run" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ORB_SLAM2_realsense" TARGET_NAME="test-results-run" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-results" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ORB_SLAM2_realsense" TARGET_NAME="test-results" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ORB_SLAM2_realsense" TARGET_NAME="test" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ORB_SLAM2_realsense" TARGET_NAME="tests" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application._catkin_empty_exported_target" />
+      <item itemvalue="Application.bin_vocabulary" />
+      <item itemvalue="Application.clean_test_results" />
+      <item itemvalue="Application.download_extra_data" />
+      <item itemvalue="Application.doxygen" />
+      <item itemvalue="Application.ORB_SLAM2_realsense" />
+      <item itemvalue="Application.RGBD" />
+      <item itemvalue="Application.rosbuild_clean-test-results" />
+      <item itemvalue="Application.ROSBUILD_genmsg_cpp" />
+      <item itemvalue="Application.ROSBUILD_genmsg_lisp" />
+      <item itemvalue="Application.ROSBUILD_gensrv_cpp" />
+      <item itemvalue="Application.ROSBUILD_gensrv_lisp" />
+      <item itemvalue="Application.rosbuild_precompile" />
+      <item itemvalue="Application.rosbuild_premsgsrvgen" />
+      <item itemvalue="Application.rospack_genmsg" />
+      <item itemvalue="Application.rospack_genmsg_libexe" />
+      <item itemvalue="Application.rospack_gensrv" />
+      <item itemvalue="Application.run_tests" />
+      <item itemvalue="Application.test" />
+      <item itemvalue="Application.test-future" />
+      <item itemvalue="Application.test-results" />
+      <item itemvalue="Application.test-results-run" />
+      <item itemvalue="Application.tests" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c0d96e3f-d410-4738-aed1-654b799926ef" name="Default Changelist" comment="" />
+      <created>1571386644784</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571386644784</updated>
+      <workItem from="1571386645914" duration="358000" />
+      <workItem from="1571472460874" duration="9647000" />
+      <workItem from="1571559875328" duration="35583000" />
+      <workItem from="1571820483766" duration="36981000" />
+      <workItem from="1573315426424" duration="29000" />
+      <workItem from="1573315566879" duration="3128000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="85726000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="-6" width="1855" height="1086" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20729685" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6809623" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997773" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32962137" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.32740587" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.3294979" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Examples/ROS/ORB_SLAM2/src/ros_rgbd.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2160">
+          <caret line="144" column="42" lean-forward="true" selection-start-line="144" selection-start-column="42" selection-end-line="144" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/ros/kinetic/include/sensor_msgs/PointCloud2.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/ros/kinetic/include/pcl_conversions/pcl_conversions.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="647">
+          <caret line="486" column="40" selection-start-line="486" selection-start-column="40" selection-end-line="486" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/ros/kinetic/include/cv_bridge/cv_bridge.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="212" column="16" selection-start-line="212" selection-start-column="16" selection-end-line="212" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LocalMapping.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/GL/glew.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="1019" column="22" selection-start-line="1019" selection-start-column="22" selection-end-line="1019" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/mat.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="2062" column="11" selection-start-line="2062" selection-start-column="11" selection-end-line="2062" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/eigen.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="95" column="27" selection-start-line="95" selection-start-column="27" selection-end-line="95" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/ros/kinetic/include/ros/publisher.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/core/mat.inl.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="738" selection-start-line="738" selection-end-line="738" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/pangolin/display/opengl_render_state.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="297" column="21" selection-start-line="297" selection-start-column="21" selection-end-line="297" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/Tracking.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/System.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="53" column="6" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tracking.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/Viewer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Viewer.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-105">
+          <caret line="106" column="40" selection-start-line="106" selection-start-column="40" selection-end-line="106" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/pcl-1.8/pcl/io/pcd_io.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="586" column="4" selection-start-line="586" selection-start-column="4" selection-end-line="586" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="82" column="37" selection-start-line="82" selection-start-column="37" selection-end-line="82" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/ros/kinetic/include/octomap_msgs/Octomap.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/pcl-1.8/pcl/impl/point_types.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="613" column="11" selection-start-line="613" selection-start-column="11" selection-end-line="613" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Map.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="81" column="23" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ros_rgbd.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2205">
+          <caret line="147" column="17" selection-start-line="147" selection-start-column="17" selection-end-line="147" selection-end-column="17" />
+          <folding>
+            <element signature="e#829#847#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/System.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2760">
+          <caret line="184" column="62" selection-start-line="184" selection-start-column="62" selection-end-line="184" selection-end-column="62" />
+          <folding>
+            <element signature="e#830#849#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/MapDrawer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="12" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MapDrawer.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3405">
+          <caret line="227" column="16" selection-start-line="227" selection-start-column="16" selection-end-line="227" selection-end-column="16" />
+          <folding>
+            <element signature="e#828#850#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/KeyFrame.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1560">
+          <caret line="104" column="22" selection-start-line="104" selection-start-column="22" selection-end-line="104" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/pointcloudmapping.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pointcloudmapping.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="118" column="32" selection-start-line="118" selection-start-column="32" selection-end-line="118" selection-end-column="32" />
+          <folding>
+            <element signature="e#785#815#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

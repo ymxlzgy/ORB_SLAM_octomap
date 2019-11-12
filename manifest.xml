@@ -1,0 +1,21 @@
+<package>
+  <name>ORB_SLAM2_realsense</name>
+  <version>0.0.0</version>
+  <description brief="ORB_SLAM2_realsense">
+
+     ORB_SLAM2_realsense
+
+  </description>
+  <author>Raul Mur-Artal</author>
+  <license>GPLv3</license>
+  <depend package="roscpp"/>
+  <depend package="tf"/>
+  <depend package="sensor_msgs"/>
+  <depend package="image_transport"/>
+  <depend package="cv_bridge"/>
+
+
+</package>
+
+
+
